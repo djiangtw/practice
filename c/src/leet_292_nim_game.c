@@ -31,5 +31,5 @@ bool canWinNim(int n)
 
 int n292_nim_game_test(void)
 {
-
+    return 0;
 }

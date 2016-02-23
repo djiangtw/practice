@@ -1,5 +1,7 @@
 CC = gcc
-SRC_FILES = leet_main.c n292_nim_game.c
+SRC_FILES = leet_main.c \
+			leet_292_nim_game.c \
+			leet_258_add_digits.c
 SRC_PATH = src/
 SRC = $(addprefix $(SRC_PATH), $(SRC_FILES))
 REL_FILES = leet
@@ -16,8 +18,8 @@ $(REL): $(SRC)
 	@objcopy --only-keep-debug $@ $@.debug
 	@echo $(SRC)
 
-dox: foo.dox
-	@doxygen $^
+#dox: foo.dox
+	#@doxygen $^
 
 prof: $(REL) gmon.out
 	@gprof rel/foo gmon.out > doc/analysis.txt
