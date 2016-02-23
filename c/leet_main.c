@@ -32,6 +32,10 @@ int main(int argc, const char *argv[])
      *printf("%d\n", firstBadVersion(2126753390));
      */
     printf("%d\n", addDigits(38));
+    printf("%s\n", isHappy(19)? "true" : "false");
+    printf("%s\n", isHappy(28)? "true" : "false");
+    printf("%s\n", isHappy(11)? "true" : "false");
+    printf("%s\n", isHappy(13)? "true" : "false");
     return 0;
 }
 

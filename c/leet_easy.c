@@ -16,6 +16,7 @@
  * =====================================================================================
  */
 
+#include "leet_header.h"
 
 /*  \brief  292 Nim Game
  *          You are playing the following Nim Game with your friend: There is a heap of stones on the table, each time one of you take turns to remove 1 to 3 stones. The one who removes the last stone will be the winner. You will take the first turn to remove the stones.
@@ -29,12 +30,7 @@ bool canWinNim(int n)
     return ((n % 4) > 0);
 }
 
-/* 
- *
- *
- */
 // Forward declaration of isBadVersion API.
-/*#define ANSWER  55*/
 #define ANSWER  1702766719
 bool isBadVersion(int version)
 {
@@ -48,6 +44,13 @@ bool isBadVersion(int version)
     }
 }
 
+/**
+ * @brief 278, First Bad Version
+ *
+ * @param n a given number n.
+ *
+ * @return the first bad version item
+ */
 int firstBadVersion(int n) {
     int left = 1;
     int right = n;
@@ -65,7 +68,7 @@ int firstBadVersion(int n) {
          *  there will be an overflow issue when the first bad version is closed to the upper limit of integer.
          */
         middle = left + (right - left) / 2;
-        printf("%d\n", middle);
+        /*printf("%d\n", middle);*/
         if(isBadVersion(middle))
         {
             right = middle - 1;
@@ -78,7 +81,15 @@ int firstBadVersion(int n) {
     return left;
 }
 
-int addDigits(int num) {
+/**
+ * @brief 258, Add Digits
+ *
+ * @param num a given number
+ *
+ * @return 
+ */
+int addDigits(int num)
+{
     int m, n, sum;
     sum = m = n = num;
     while(m >= 10)
@@ -94,3 +105,67 @@ int addDigits(int num) {
     }
     return sum;
 }
+/**
+ * @brief 258, Add Digits, O(1) solution.
+ *
+ * @param num a given number
+ *
+ * @return the sum of its digits
+ */
+int addDigits_1(int num)
+{
+    return (((num - 1) % 9) + 1);
+}
+
+int sum_of_square(int n)
+{
+    return 0;
+}
+bool isHappy(int n)
+{
+    int sum = 0;
+    /*static int count = 0;*/
+    static int single = 0;
+    /*count++;*/
+    while(n >= 10)
+    {
+        sum += ((n % 10) * (n % 10));
+        n /= 10;
+    }
+    sum += (n * n);
+    printf("%d\n", sum);
+    if(sum == 1)
+    {
+        return true;
+    }
+    if(single == sum)
+    {
+        return false;
+    }
+    if(sum < 10)
+    {
+        single = sum;
+    }
+    /*
+     *if(count > 100)
+     *{
+     *    return false;
+     *}
+     */
+    isHappy(sum);
+}
+
+#if 0
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };
+ */
+int maxDepth(struct TreeNode* root)
+{
+    
+}
+#endif

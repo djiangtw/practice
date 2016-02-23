@@ -16,7 +16,19 @@
  * =====================================================================================
  */
 
+#ifndef __KEET_HEADER_H
 #define true    1
 #define false   0
+//#define NULL    0
 
 typedef char bool;
+
+/*
+ *typedef struct TreeNode {
+ *    int val;
+ *    struct TreeNode *left;
+ *    struct TreeNode *right;
+ *} TreeNode_;
+ */
+
+#endif
