@@ -1,5 +1,6 @@
 CC = gcc
 SRC_FILES = leet_main.c \
+			leet_231_power_of_two.c \
 			leet_292_nim_game.c \
 			leet_258_add_digits.c \
 			leet_263_ugly_number.c \

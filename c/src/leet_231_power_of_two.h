@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  leet_modules.h
+ *       Filename:  leet_231_power_of_two.h
  *
- *    Description:  leet questions/modules
+ *    Description:  header file
  *
  *        Version:  1.0
- *        Created:  2016年02月24日 10時03分20秒
+ *        Created:  2016年02月24日 12時15分56秒
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -16,12 +16,9 @@
  * =====================================================================================
  */
 
-#ifndef __LEET_MODULES_H
-#define __LEET_MODULES_H
-
-#include "leet_231_power_of_two.h"
-#include "leet_258_add_digits.h"
-#include "leet_263_ugly_number.h"
-#include "leet_326_power_of_three.h"
+#ifndef __LEET_231_POWER_OF_TWO_H
+#define __LEET_231_POWER_OF_TWO_H
+extern bool isPowerOfTwo(int n);
+extern int leet_231_power_of_two_test(void);
 
 #endif
