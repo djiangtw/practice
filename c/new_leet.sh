@@ -27,6 +27,7 @@ leet_c_source()
     echo ""
     echo "int $filename""_test(void)"
     echo "{"
+    echo "    return 0;"
     echo "}"
     echo ""
 
