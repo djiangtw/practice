@@ -16,7 +16,12 @@
  * =====================================================================================
  */
 
-#ifndef __KEET_HEADER_H
+#ifndef __LEET_HEADER_H
+#define __LEET_HEADER_H
+
+#include <stdio.h>
+#include <stdlib.h>
+
 #define true    1
 #define false   0
 //#define NULL    0

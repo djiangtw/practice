@@ -16,15 +16,24 @@
  * =====================================================================================
  */
 
-#include <stdio.h>
-#include <stdlib.h>
-/*#include "leet_header.h"*/
+#include "leet_header.h"
+#include "leet_modules.h"
 
 /*#include "leet_easy.c"*/
 
 int main(int argc, const char *argv[])
 {
+    int sn = 258;
     printf("%s\n", "Leet Code Entry");
+
+    switch(sn)
+    {
+        case 258:
+            leet_258_add_digits_test();
+            break;
+        default:
+            break;
+    }
     /*
      *printf("%d\n", firstBadVersion(1));
      *printf("%d\n", firstBadVersion(2));

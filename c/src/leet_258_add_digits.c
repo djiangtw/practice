@@ -16,6 +16,8 @@
  * =====================================================================================
  */
 
+#include "leet_header.h"
+#include "leet_258_add_digits.h"
 
 /**
  * @brief 258, Add Digits
@@ -51,4 +53,10 @@ int addDigits(int num)
 int addDigits_1(int num)
 {
     return (((num - 1) % 9) + 1);
+}
+
+int leet_258_add_digits_test(void)
+{
+    printf("%s\n", __FILE__);
+    return 0;
 }
