@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  leet_modules.h
+ *       Filename:  leet_263_ugly_number.h
  *
- *    Description:  leet questions/modules
+ *    Description:  header file. 
  *
  *        Version:  1.0
- *        Created:  2016年02月24日 10時03分20秒
+ *        Created:  2016年02月24日 10時38分17秒
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -16,11 +16,11 @@
  * =====================================================================================
  */
 
-#ifndef __LEET_MODULES_H
-#define __LEET_MODULES_H
+#ifndef __LEET_263_UGLY_NUMBER_H
+#define __LEET_263_UGLY_NUMBER_H
 
-#include "leet_258_add_digits.h"
-#include "leet_263_ugly_number.h"
-#include "leet_326_power_of_three.h"
+extern bool isUgly(int num);
+extern int leet_263_ugly_number_test(void);
+
 
 #endif

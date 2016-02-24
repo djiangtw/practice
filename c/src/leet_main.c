@@ -19,20 +19,25 @@
 #include "leet_header.h"
 #include "leet_modules.h"
 
-/*#include "leet_easy.c"*/
-
 int main(int argc, const char *argv[])
 {
     int sn = 258;
+    sn = 326;
     printf("%s\n", "Leet Code Entry");
 
     switch(sn)
     {
-        case 258:
-            leet_258_add_digits_test();
-            break;
-        default:
-            break;
+    case 258:
+        leet_258_add_digits_test();
+        break;
+    case 263:
+        leet_263_ugly_number_test();
+        break;
+    case 326:
+        leet_326_power_of_three_test();
+        break;
+    default:
+        break;
     }
     /*
      *printf("%d\n", firstBadVersion(1));

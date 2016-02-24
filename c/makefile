@@ -1,7 +1,9 @@
 CC = gcc
 SRC_FILES = leet_main.c \
 			leet_292_nim_game.c \
-			leet_258_add_digits.c
+			leet_258_add_digits.c \
+			leet_263_ugly_number.c \
+			leet_326_power_of_three.c
 SRC_PATH = src/
 SRC = $(addprefix $(SRC_PATH), $(SRC_FILES))
 REL_FILES = leet
@@ -19,7 +21,7 @@ $(REL): $(SRC)
 	@echo $(SRC)
 
 #dox: foo.dox
-	#@doxygen $^
+#@doxygen $^
 
 prof: $(REL) gmon.out
 	@gprof rel/foo gmon.out > doc/analysis.txt
@@ -29,4 +31,4 @@ clean:
 	@rm -rf $(REL_PATH)
 	@rm -rf doc/html doc/latex
 	@rm -f doc/analysis.txt
-	@rm gmon.out
+	@rm -f gmon.out
