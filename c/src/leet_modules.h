@@ -20,6 +20,7 @@
 #define __LEET_MODULES_H
 
 #include "leet_43_multiply_strings.h"
+#include "leet_169_majority_element.h"
 #include "leet_171_excel_sheet_column_number.h"
 #include "leet_217_contains_duplicate.h"
 #include "leet_231_power_of_two.h"

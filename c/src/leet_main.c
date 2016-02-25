@@ -22,13 +22,16 @@
 int main(int argc, const char *argv[])
 {
     int sn = 258;
-    sn = 171;
+    sn = 169;
     printf("%s\n", "Leet Code Entry");
 
     switch(sn)
     {
     case 43:
         leet_43_multiply_strings_test();
+        break;
+    case 169:
+        leet_169_majority_element_test();
         break;
     case 171:
         leet_171_excel_sheet_column_number_test();
