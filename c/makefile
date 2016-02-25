@@ -1,5 +1,6 @@
 CC = gcc
 SRC_FILES = leet_main.c \
+			leet_8_string_to_integer_atoi.c \
 			leet_43_multiply_strings.c \
 			leet_169_majority_element.c \
 			leet_171_excel_sheet_column_number.c \

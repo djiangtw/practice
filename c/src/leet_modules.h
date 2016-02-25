@@ -19,6 +19,7 @@
 #ifndef __LEET_MODULES_H
 #define __LEET_MODULES_H
 
+#include "leet_8_string_to_integer_atoi.h"
 #include "leet_43_multiply_strings.h"
 #include "leet_169_majority_element.h"
 #include "leet_171_excel_sheet_column_number.h"
