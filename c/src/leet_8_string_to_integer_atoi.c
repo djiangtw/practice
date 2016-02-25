@@ -6,6 +6,22 @@
  *     Revision: none
  *     Compiler: gcc
  *       Author: Danny Jiang
+ *
+ *         Note: There are some rules for legal input of ATOI function,
+ *               1, remove leading spaces, ' '.
+ *               2, check sign character, '+' or '-'. sometimes there's no sign 
+ *                  character for positive number.
+ *               3, when read an invalid character, stop, and translate the valid parts.
+ *               4, check the range of the return value, between INT_MAX and INT_MIN.
+ *               
+ *               Only two functions are used for the solution, others are what I have tried.
+ *                  bool valid_digit(char c)
+ *                  int myAtoi(char* str) 
+ *               Below is my submit,
+ *                  https://leetcode.com/submissions/detail/54492693/
+ *
+ *               TODO: remove what I have tried but failed.
+ *               
  */
 
 #include "leet_header.h"
@@ -79,7 +95,7 @@ static void preprocess_str(char* s, char* t)
         t++;
     }
 }
-int myAtoi(char* str)
+int myAtoi_A(char* str)
 {
     int neg;
     int sign;
@@ -132,6 +148,57 @@ int myAtoi(char* str)
     return (neg == 1)? (0 - ret) : ret;
 }
 
+bool valid_digit(char c)
+{
+    if(c >= '0' && c <= '9')
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+/**
+ * @brief Implement atoi to convert a string to an integer.
+ *
+ * @param str
+ *
+ * @return 
+ */
+int myAtoi(char* str)
+{
+    int neg = 0;
+    long long ret = 0;
+
+    while(*str == ' ')
+    {
+        str++;
+    }
+
+    if(*str == '+' || *str == '-')
+    {
+        neg = (*str == '-')? 1 : 0;
+        str++;
+    }
+    if(!valid_digit(*str))
+    {
+        return 0;
+    }
+
+    while(valid_digit(*str))
+    {
+        ret = ret * 10 + *str - '0';
+        if(ret > (long long)INT_MAX)
+        {
+            return (neg == 1)? INT_MIN : INT_MAX;
+        }
+        str++;
+    }
+    return (neg == 1)? -(int)ret : (int)ret;
+
+}
 static void test1(void)
 {
     printf("%d\n", 0x7fffffff);
