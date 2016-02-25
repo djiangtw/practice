@@ -20,7 +20,10 @@
 #define __LEET_MODULES_H
 
 #include "leet_43_multiply_strings.h"
+#include "leet_171_excel_sheet_column_number.h"
+#include "leet_217_contains_duplicate.h"
 #include "leet_231_power_of_two.h"
+#include "leet_242_valid_anagram.h"
 #include "leet_258_add_digits.h"
 #include "leet_263_ugly_number.h"
 #include "leet_326_power_of_three.h"
