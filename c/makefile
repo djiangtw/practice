@@ -1,5 +1,6 @@
 CC = gcc
 SRC_FILES = leet_main.c \
+			leet_1_two_sum.c \
 			leet_8_string_to_integer_atoi.c \
 			leet_27_remove_element.c \
 			leet_43_multiply_strings.c \

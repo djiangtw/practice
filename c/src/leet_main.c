@@ -22,11 +22,14 @@
 int main(int argc, const char *argv[])
 {
     int sn = 258;
-    sn = 27;
+    sn = 1;
     printf("%s\n", "Leet Code Entry");
 
     switch(sn)
     {
+    case 1:
+        leet_1_two_sum_test();
+        break;
     case 8:
         leet_8_string_to_integer_atoi_test();
         break;

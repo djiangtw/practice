@@ -19,6 +19,7 @@
 #ifndef __LEET_MODULES_H
 #define __LEET_MODULES_H
 
+#include "leet_1_two_sum.h"
 #include "leet_8_string_to_integer_atoi.h"
 #include "leet_27_remove_element.h"
 #include "leet_43_multiply_strings.h"
