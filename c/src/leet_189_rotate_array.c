@@ -27,7 +27,8 @@ void rotate(int* nums, int numsSize, int k)
     int* copy_nums;
 
     copy_nums = (int*)malloc(sizeof(int) * numsSize);
-    memcpy(copy_nums, nums, sizeof(int) * numsSize);
+    /* this memcpy is redundant */
+    /*memcpy(copy_nums, nums, sizeof(int) * numsSize);*/
 
     for (i = 0; i < numsSize; i++) 
     {
