@@ -5,6 +5,7 @@ SRC_FILES = leet_main.c \
 			leet_153_find_minimum_in_rotated_sorted_array.c \
 			leet_169_majority_element.c \
 			leet_171_excel_sheet_column_number.c \
+			leet_189_rotate_array.c \
 			leet_217_contains_duplicate.c \
 			leet_231_power_of_two.c \
 			leet_242_valid_anagram.c \
