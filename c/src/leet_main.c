@@ -22,7 +22,7 @@
 int main(int argc, const char *argv[])
 {
     int sn = 258;
-    sn = 1;
+    sn = 137;
     printf("%s\n", "Leet Code Entry");
 
     switch(sn)
@@ -38,6 +38,9 @@ int main(int argc, const char *argv[])
         break;
     case 43:
         leet_43_multiply_strings_test();
+        break;
+    case 137:
+        leet_137_single_number_ii_test();
         break;
     case 153:
         leet_153_find_minimum_in_rotated_sorted_array_test();
