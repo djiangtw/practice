@@ -25,6 +25,7 @@
 #include "leet_169_majority_element.h"
 #include "leet_171_excel_sheet_column_number.h"
 #include "leet_189_rotate_array.h"
+#include "leet_190_reverse_bits.h"
 #include "leet_217_contains_duplicate.h"
 #include "leet_231_power_of_two.h"
 #include "leet_242_valid_anagram.h"

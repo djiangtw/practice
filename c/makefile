@@ -6,6 +6,7 @@ SRC_FILES = leet_main.c \
 			leet_169_majority_element.c \
 			leet_171_excel_sheet_column_number.c \
 			leet_189_rotate_array.c \
+			leet_190_reverse_bits.c \
 			leet_217_contains_duplicate.c \
 			leet_231_power_of_two.c \
 			leet_242_valid_anagram.c \

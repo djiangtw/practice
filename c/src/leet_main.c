@@ -22,7 +22,7 @@
 int main(int argc, const char *argv[])
 {
     int sn = 258;
-    sn = 189;
+    sn = 190;
     printf("%s\n", "Leet Code Entry");
 
     switch(sn)
@@ -44,6 +44,9 @@ int main(int argc, const char *argv[])
         break;
     case 189:
         leet_189_rotate_array_test();
+        break;
+    case 190:
+        leet_190_reverse_bits_test();
         break;
     case 217:
         leet_217_contains_duplicate_test();
