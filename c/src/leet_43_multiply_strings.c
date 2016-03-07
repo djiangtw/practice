@@ -33,7 +33,7 @@ char int_to_char(int i)
     return '0' + i;
 }
 
-void str_reverse(char* s)
+static void str_reverse(char* s)
 {
     int sz;
     int i = 0;
