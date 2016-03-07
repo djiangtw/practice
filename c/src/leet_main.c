@@ -22,13 +22,16 @@
 int main(int argc, const char *argv[])
 {
     int sn = 258;
-    sn = 137;
+    sn = 204;
     printf("%s\n", "Leet Code Entry");
 
     switch(sn)
     {
     case 1:
         leet_1_two_sum_test();
+        break;
+    case 3:
+        leet_3_longest_substring_without_repeating_characters_test();
         break;
     case 8:
         leet_8_string_to_integer_atoi_test();
@@ -56,6 +59,9 @@ int main(int argc, const char *argv[])
         break;
     case 190:
         leet_190_reverse_bits_test();
+        break;
+    case 204:
+        leet_204_count_primes_test();
         break;
     case 217:
         leet_217_contains_duplicate_test();
