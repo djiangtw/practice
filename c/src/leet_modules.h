@@ -22,6 +22,8 @@
 #include "leet_1_two_sum.h"
 #include "leet_3_longest_substring_without_repeating_characters.h"
 #include "leet_8_string_to_integer_atoi.h"
+#include "leet_9_palindrome.h"
+#include "leet_21_merge_two_sorted_lists.h"
 #include "leet_27_remove_element.h"
 #include "leet_43_multiply_strings.h"
 #include "leet_67_add_binary.h"

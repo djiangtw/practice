@@ -3,6 +3,8 @@ SRC_FILES = leet_main.c \
 			leet_1_two_sum.c \
 			leet_3_longest_substring_without_repeating_characters.c \
 			leet_8_string_to_integer_atoi.c \
+			leet_9_palindrome.c \
+			leet_21_merge_two_sorted_lists.c \
 			leet_27_remove_element.c \
 			leet_43_multiply_strings.c \
 			leet_67_add_binary.c \

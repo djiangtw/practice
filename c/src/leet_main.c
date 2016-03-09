@@ -22,7 +22,7 @@
 int main(int argc, const char *argv[])
 {
     int sn = 258;
-    sn = 112;
+    sn = 9;
     printf("%s\n", "Leet Code Entry");
 
     switch(sn)
@@ -35,6 +35,12 @@ int main(int argc, const char *argv[])
         break;
     case 8:
         leet_8_string_to_integer_atoi_test();
+        break;
+    case 9:
+        leet_9_palindrome_test();
+        break;
+    case 21:
+        leet_21_merge_two_sorted_lists_test();
         break;
     case 27:
         leet_27_remove_element_test();
