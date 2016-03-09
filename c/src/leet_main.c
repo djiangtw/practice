@@ -22,7 +22,7 @@
 int main(int argc, const char *argv[])
 {
     int sn = 258;
-    sn = 9;
+    sn = 21;
     printf("%s\n", "Leet Code Entry");
 
     switch(sn)
