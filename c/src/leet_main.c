@@ -22,7 +22,7 @@
 int main(int argc, const char *argv[])
 {
     int sn = 258;
-    sn = 118;
+    sn = 119;
     printf("%s\n", "Leet Code Entry");
 
     switch(sn)
@@ -60,6 +60,9 @@ int main(int argc, const char *argv[])
         break;
     case 118:
         leet_118_pascals_triangle_test();
+        break;
+    case 119:
+        leet_119_pascals_triangle_ii_test();
         break;
     case 137:
         leet_137_single_number_ii_test();

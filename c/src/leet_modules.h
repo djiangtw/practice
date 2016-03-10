@@ -30,6 +30,7 @@
 #include "leet_67_add_binary.h"
 #include "leet_112_path_sum.h"
 #include "leet_118_pascals_triangle.h"
+#include "leet_119_pascals_triangle_ii.h"
 #include "leet_137_single_number_ii.h"
 #include "leet_153_find_minimum_in_rotated_sorted_array.h"
 #include "leet_169_majority_element.h"

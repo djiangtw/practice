@@ -11,6 +11,7 @@ SRC_FILES = leet_main.c \
 			leet_67_add_binary.c \
 			leet_112_path_sum.c \
 			leet_118_pascals_triangle.c \
+			leet_119_pascals_triangle_ii.c \
 			leet_137_single_number_ii.c \
 			leet_153_find_minimum_in_rotated_sorted_array.c \
 			leet_169_majority_element.c \
