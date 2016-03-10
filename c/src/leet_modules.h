@@ -21,6 +21,7 @@
 
 #include "leet_1_two_sum.h"
 #include "leet_3_longest_substring_without_repeating_characters.h"
+#include "leet_7_reverse_integer.h"
 #include "leet_8_string_to_integer_atoi.h"
 #include "leet_9_palindrome.h"
 #include "leet_21_merge_two_sorted_lists.h"

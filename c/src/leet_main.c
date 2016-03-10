@@ -22,7 +22,7 @@
 int main(int argc, const char *argv[])
 {
     int sn = 258;
-    sn = 21;
+    sn = 7;
     printf("%s\n", "Leet Code Entry");
 
     switch(sn)
@@ -31,7 +31,11 @@ int main(int argc, const char *argv[])
         leet_1_two_sum_test();
         break;
     case 3:
+        /*TODO: not solved*/
         leet_3_longest_substring_without_repeating_characters_test();
+        break;
+    case 7:
+        leet_7_reverse_integer_test();
         break;
     case 8:
         leet_8_string_to_integer_atoi_test();
