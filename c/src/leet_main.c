@@ -1,19 +1,12 @@
-/*
- * =====================================================================================
- *
- *       Filename:  leet_main.c
- *
- *    Description:  leet code entry
- *
- *        Version:  1.0
- *        Created:  2016年02月23日 09時20分05秒
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  YOUR NAME (), 
- *   Organization:  
- *
- * =====================================================================================
+/**
+ *     Filename: leet_main.c
+ *  Description: leet code entry
+ *      Version: 1.0
+ *      Created: 09:20:05 02-23-2016
+ *     Revision: none
+ *     Compiler: gcc
+ *       Author: Danny Jiang
+ *          URL:
  */
 
 #include "leet_header.h"
@@ -21,105 +14,24 @@
 
 int main(int argc, const char *argv[])
 {
-    int sn = 258;
-    sn = 119;
-    printf("%s\n", "Leet Code Entry");
+    int sn = 104;
+    TESTCASE* p_test;
+    printf("%s\n", __FILE__);
 
-    switch(sn)
+    p_test = test_cases;
+    while( p_test->sn != END_OF_TEST_SN)
     {
-    case 1:
-        leet_1_two_sum_test();
-        break;
-    case 3:
-        /*TODO: not solved*/
-        leet_3_longest_substring_without_repeating_characters_test();
-        break;
-    case 7:
-        leet_7_reverse_integer_test();
-        break;
-    case 8:
-        leet_8_string_to_integer_atoi_test();
-        break;
-    case 9:
-        leet_9_palindrome_test();
-        break;
-    case 21:
-        leet_21_merge_two_sorted_lists_test();
-        break;
-    case 27:
-        leet_27_remove_element_test();
-        break;
-    case 43:
-        leet_43_multiply_strings_test();
-        break;
-    case 67:
-        leet_67_add_binary_test();
-        break;
-    case 112:
-        leet_112_path_sum_test();
-        break;
-    case 118:
-        leet_118_pascals_triangle_test();
-        break;
-    case 119:
-        leet_119_pascals_triangle_ii_test();
-        break;
-    case 137:
-        leet_137_single_number_ii_test();
-        break;
-    case 153:
-        leet_153_find_minimum_in_rotated_sorted_array_test();
-        break;
-    case 169:
-        leet_169_majority_element_test();
-        break;
-    case 171:
-        leet_171_excel_sheet_column_number_test();
-        break;
-    case 189:
-        leet_189_rotate_array_test();
-        break;
-    case 190:
-        leet_190_reverse_bits_test();
-        break;
-    case 204:
-        leet_204_count_primes_test();
-        break;
-    case 217:
-        leet_217_contains_duplicate_test();
-        break;
-    case 231:
-        leet_231_power_of_two_test();
-        break;
-    case 242:
-        leet_242_valid_anagram_test();
-        break;
-    case 258:
-        leet_258_add_digits_test();
-        break;
-    case 263:
-        leet_263_ugly_number_test();
-        break;
-    case 290:
-        leet_290_word_pattern_test();
-        break;
-    case 326:
-        leet_326_power_of_three_test();
-        break;
-    default:
-        break;
+        if(p_test->sn == sn)
+        {
+            p_test->test();
+            break;
+        }
+        p_test++;
     }
-    /*
-     *printf("%d\n", firstBadVersion(1));
-     *printf("%d\n", firstBadVersion(2));
-     *printf("%d\n", firstBadVersion(60));
-     *printf("%d\n", firstBadVersion(2126753390));
-     */
-    /*printf("%d\n", addDigits(38));*/
-    /*printf("%s\n", isHappy(19)? "true" : "false");*/
-    /*printf("%s\n", isHappy(28)? "true" : "false");*/
-    /*printf("%s\n", isHappy(11)? "true" : "false");*/
-    /*printf("%s\n", isHappy(13)? "true" : "false");*/
+    if( p_test->sn == END_OF_TEST_SN )
+    {
+        printf("%s\n", "test case not found!");
+    }
     return 0;
 }
 

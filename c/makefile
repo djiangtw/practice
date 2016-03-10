@@ -9,6 +9,7 @@ SRC_FILES = leet_main.c \
 			leet_27_remove_element.c \
 			leet_43_multiply_strings.c \
 			leet_67_add_binary.c \
+			leet_104_maximum_depth_of_binary_tree.c \
 			leet_112_path_sum.c \
 			leet_118_pascals_triangle.c \
 			leet_119_pascals_triangle_ii.c \
