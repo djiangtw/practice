@@ -10,6 +10,7 @@ SRC_FILES = leet_main.c \
 			leet_43_multiply_strings.c \
 			leet_67_add_binary.c \
 			leet_112_path_sum.c \
+			leet_118_pascals_triangle.c \
 			leet_137_single_number_ii.c \
 			leet_153_find_minimum_in_rotated_sorted_array.c \
 			leet_169_majority_element.c \
@@ -23,6 +24,7 @@ SRC_FILES = leet_main.c \
 			leet_292_nim_game.c \
 			leet_258_add_digits.c \
 			leet_263_ugly_number.c \
+			leet_290_word_pattern.c \
 			leet_326_power_of_three.c
 SRC_PATH = src/
 SRC = $(addprefix $(SRC_PATH), $(SRC_FILES))

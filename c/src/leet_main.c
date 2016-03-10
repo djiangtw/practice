@@ -22,7 +22,7 @@
 int main(int argc, const char *argv[])
 {
     int sn = 258;
-    sn = 7;
+    sn = 118;
     printf("%s\n", "Leet Code Entry");
 
     switch(sn)
@@ -57,6 +57,9 @@ int main(int argc, const char *argv[])
         break;
     case 112:
         leet_112_path_sum_test();
+        break;
+    case 118:
+        leet_118_pascals_triangle_test();
         break;
     case 137:
         leet_137_single_number_ii_test();
@@ -93,6 +96,9 @@ int main(int argc, const char *argv[])
         break;
     case 263:
         leet_263_ugly_number_test();
+        break;
+    case 290:
+        leet_290_word_pattern_test();
         break;
     case 326:
         leet_326_power_of_three_test();

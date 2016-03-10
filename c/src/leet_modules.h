@@ -29,6 +29,7 @@
 #include "leet_43_multiply_strings.h"
 #include "leet_67_add_binary.h"
 #include "leet_112_path_sum.h"
+#include "leet_118_pascals_triangle.h"
 #include "leet_137_single_number_ii.h"
 #include "leet_153_find_minimum_in_rotated_sorted_array.h"
 #include "leet_169_majority_element.h"
@@ -41,6 +42,7 @@
 #include "leet_242_valid_anagram.h"
 #include "leet_258_add_digits.h"
 #include "leet_263_ugly_number.h"
+#include "leet_290_word_pattern.h"
 #include "leet_326_power_of_three.h"
 
 #endif

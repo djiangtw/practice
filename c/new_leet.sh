@@ -4,6 +4,7 @@ now="$(date +'%T %m-%d-%Y')"
 filename="$1"
 description="$2"
 author="$3"
+m_url="$4"
 
 leet_c_head()
 {
@@ -15,6 +16,7 @@ leet_c_head()
     echo " *     Revision: none"
     echo " *     Compiler: gcc"
     echo " *       Author: $author"
+    echo " *          URL: $m_url"
     echo " */"
     echo ""
 }
@@ -45,5 +47,8 @@ leet_c_header()
     echo "#endif"
 }
 
-leet_c_source > ./src/$filename.c
-leet_c_header > ./src/$filename.h
+if [ ! -f ./src/$filename.c ]
+then
+    leet_c_source > ./src/$filename.c
+    leet_c_header > ./src/$filename.h
+fi
