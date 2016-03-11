@@ -31,14 +31,14 @@ char* getHint(char* secret, char* guess)
         }
         else
         {
-            candidates[secret[i]]++;
+            candidates[(int)secret[i]]++;
         }
     }
     for (i = 0; i < s_len; i++) {
-        if(secret[i] != guess[i] && candidates[guess[i]] != 0)
+        if(secret[i] != guess[i] && candidates[(int)guess[i]] != 0)
         {
             b++;
-            candidates[guess[i]]--;
+            candidates[(int)guess[i]]--;
         }
     }
 
