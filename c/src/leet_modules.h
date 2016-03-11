@@ -21,6 +21,7 @@
 #include "leet_27_remove_element.h"
 #include "leet_43_multiply_strings.h"
 #include "leet_67_add_binary.h"
+#include "leet_83_remove_duplicates_from_sorted_list.h"
 #include "leet_88_merge_sorted_array.h"
 #include "leet_104_maximum_depth_of_binary_tree.h"
 #include "leet_112_path_sum.h"
@@ -62,6 +63,7 @@ TESTCASE test_cases[] =
     {27, leet_27_remove_element_test},
     {43, leet_43_multiply_strings_test},
     {67, leet_67_add_binary_test},
+    {83, leet_83_remove_duplicates_from_sorted_list_test},
     {88, leet_88_merge_sorted_array_test},
     {104, leet_104_maximum_depth_of_binary_tree_test},
     {112, leet_112_path_sum_test},
