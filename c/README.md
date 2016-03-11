@@ -17,7 +17,7 @@ $ make all
 ```
 
 ##Execute Code
-*<testcase_number>* is the question number, it might be unique as I know.
+*testcase_number* is the question number, it might be unique as I know.
 ```
 $ rel/leet <testcase_number>
 or
@@ -32,7 +32,7 @@ $ make clean; make; rel/leet <testcase_number>
 - currently, using a bash script to generate c and h files for a specified test.
 ```
 Usage:
-    new_leet.sh <filename> <description> <author>
+    new_leet.sh <filename> <description> <author> <url_of_leetcode_question>
 
 $ new_leet.sh leet_222_danny_jiang_header "222 Danny Jiang Header" "Danny Jiang" "https://leetcode.com/problems/danny-jiang-header/"
 ```
