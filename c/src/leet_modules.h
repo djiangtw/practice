@@ -32,9 +32,11 @@
 #include "leet_171_excel_sheet_column_number.h"
 #include "leet_189_rotate_array.h"
 #include "leet_190_reverse_bits.h"
+#include "leet_191_number_of_1_bits.h"
 #include "leet_204_count_primes.h"
 #include "leet_217_contains_duplicate.h"
 #include "leet_231_power_of_two.h"
+#include "leet_237_delete_node_in_a_linked_list.h"
 #include "leet_242_valid_anagram.h"
 #include "leet_258_add_digits.h"
 #include "leet_263_ugly_number.h"
@@ -71,9 +73,11 @@ TESTCASE test_cases[] =
     {171, leet_171_excel_sheet_column_number_test},
     {189, leet_189_rotate_array_test},
     {190, leet_190_reverse_bits_test},
+    {191, leet_191_number_of_1_bits_test},
     {204, leet_204_count_primes_test},
     {217, leet_217_contains_duplicate_test},
     {231, leet_231_power_of_two_test},
+    {237, leet_237_delete_node_in_a_linked_list_test},
     {242, leet_242_valid_anagram_test},
     {258, leet_258_add_digits_test},
     {263, leet_263_ugly_number_test},

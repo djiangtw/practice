@@ -20,9 +20,11 @@ SRC_FILES = leet_main.c \
 			leet_171_excel_sheet_column_number.c \
 			leet_189_rotate_array.c \
 			leet_190_reverse_bits.c \
+			leet_191_number_of_1_bits.c \
 			leet_204_count_primes.c \
 			leet_217_contains_duplicate.c \
 			leet_231_power_of_two.c \
+			leet_237_delete_node_in_a_linked_list.c \
 			leet_242_valid_anagram.c \
 			leet_292_nim_game.c \
 			leet_258_add_digits.c \
