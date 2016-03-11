@@ -14,9 +14,18 @@
 
 int main(int argc, const char *argv[])
 {
-    int sn = 104;
+    int sn;
     TESTCASE* p_test;
-    printf("%s\n", __FILE__);
+
+    if(argc == 2)
+    {
+        sn = atoi(argv[1]);
+    }
+    else
+    {
+        return -1;
+    }
+    printf("%s: test %d\n", __FILE__, sn);
 
     p_test = test_cases;
     while( p_test->sn != END_OF_TEST_SN)

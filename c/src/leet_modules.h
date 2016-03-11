@@ -38,6 +38,7 @@
 #include "leet_258_add_digits.h"
 #include "leet_263_ugly_number.h"
 #include "leet_290_word_pattern.h"
+#include "leet_299_bulls_and_cows.h"
 #include "leet_326_power_of_three.h"
 
 #define END_OF_TEST_SN  (-1)
@@ -75,6 +76,7 @@ TESTCASE test_cases[] =
     {258, leet_258_add_digits_test},
     {263, leet_263_ugly_number_test},
     {290, leet_290_word_pattern_test},
+    {299, leet_299_bulls_and_cows_test},
     {326, leet_326_power_of_three_test},
     {END_OF_TEST_SN, NULL}
 };

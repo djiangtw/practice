@@ -27,6 +27,7 @@ SRC_FILES = leet_main.c \
 			leet_258_add_digits.c \
 			leet_263_ugly_number.c \
 			leet_290_word_pattern.c \
+			leet_299_bulls_and_cows.c \
 			leet_326_power_of_three.c
 SRC_PATH = src/
 SRC = $(addprefix $(SRC_PATH), $(SRC_FILES))
