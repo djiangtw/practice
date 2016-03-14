@@ -44,6 +44,7 @@
 #include "leet_290_word_pattern.h"
 #include "leet_299_bulls_and_cows.h"
 #include "leet_326_power_of_three.h"
+#include "leet_328_odd_even_linked_list.h"
 
 #define END_OF_TEST_SN  (-1)
 typedef struct TESTCASE_t
@@ -86,6 +87,7 @@ TESTCASE test_cases[] =
     {290, leet_290_word_pattern_test},
     {299, leet_299_bulls_and_cows_test},
     {326, leet_326_power_of_three_test},
+    {328, leet_328_odd_even_linked_list_test},
     {END_OF_TEST_SN, NULL}
 };
 #endif
