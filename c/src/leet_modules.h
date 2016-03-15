@@ -18,6 +18,7 @@
 #include "leet_8_string_to_integer_atoi.h"
 #include "leet_9_palindrome.h"
 #include "leet_21_merge_two_sorted_lists.h"
+#include "leet_26_remove_duplicates_from_sorted_array.h"
 #include "leet_27_remove_element.h"
 #include "leet_43_multiply_strings.h"
 #include "leet_67_add_binary.h"
@@ -63,6 +64,7 @@ TESTCASE test_cases[] =
     {8, leet_8_string_to_integer_atoi_test},
     {9, leet_9_palindrome_test},
     {21, leet_21_merge_two_sorted_lists_test},
+    {26, leet_26_remove_duplicates_from_sorted_array_test},
     {27, leet_27_remove_element_test},
     {43, leet_43_multiply_strings_test},
     {67, leet_67_add_binary_test},
