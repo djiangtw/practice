@@ -19,6 +19,7 @@ SRC_FILES = leet_main.c \
 			leet_137_single_number_ii.c \
 			leet_153_find_minimum_in_rotated_sorted_array.c \
 			leet_165_compare_version_numbers.c \
+			leet_168_excel_sheet_column_title.c \
 			leet_169_majority_element.c \
 			leet_171_excel_sheet_column_number.c \
 			leet_189_rotate_array.c \

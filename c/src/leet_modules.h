@@ -31,6 +31,7 @@
 #include "leet_137_single_number_ii.h"
 #include "leet_153_find_minimum_in_rotated_sorted_array.h"
 #include "leet_165_compare_version_numbers.h"
+#include "leet_168_excel_sheet_column_title.h"
 #include "leet_169_majority_element.h"
 #include "leet_171_excel_sheet_column_number.h"
 #include "leet_189_rotate_array.h"
@@ -77,6 +78,7 @@ TESTCASE test_cases[] =
     {137, leet_137_single_number_ii_test},
     {153, leet_153_find_minimum_in_rotated_sorted_array_test},
     {165, leet_165_compare_version_numbers_test},
+    {168, leet_168_excel_sheet_column_title_test},
     {169, leet_169_majority_element_test},
     {171, leet_171_excel_sheet_column_number_test},
     {189, leet_189_rotate_array_test},
