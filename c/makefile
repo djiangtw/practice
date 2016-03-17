@@ -16,6 +16,7 @@ SRC_FILES = leet_main.c \
 			leet_112_path_sum.c \
 			leet_118_pascals_triangle.c \
 			leet_119_pascals_triangle_ii.c \
+			leet_136_single_number.c \
 			leet_137_single_number_ii.c \
 			leet_153_find_minimum_in_rotated_sorted_array.c \
 			leet_165_compare_version_numbers.c \
@@ -33,6 +34,7 @@ SRC_FILES = leet_main.c \
 			leet_242_valid_anagram.c \
 			leet_292_nim_game.c \
 			leet_258_add_digits.c \
+			leet_260_single_number_iii.c \
 			leet_263_ugly_number.c \
 			leet_290_word_pattern.c \
 			leet_299_bulls_and_cows.c \
