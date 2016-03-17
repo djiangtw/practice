@@ -21,9 +21,16 @@ static int singleNumber(int* nums, int numsSize)
     }
     return ret;
 }
+static void test1(void)
+{
+    int a[] = {1, 2, 2};
+    singleNumber(a, 3);
+
+}
 int leet_136_single_number_test(void)
 {
     printf("%s\n", __FILE__);
+    test1();
     return 0;
 }
 

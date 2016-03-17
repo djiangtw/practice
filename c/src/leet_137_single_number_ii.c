@@ -8,11 +8,31 @@
  *       Author: Danny Jiang
  *         Note: This is a very bad solution.
  *               TODO: improve it.
+ *               a better solution is done. too see if there's any better one.
  */
 
 #include "leet_header.h"
 #include "leet_137_single_number_ii.h"
 
+
+/*a better solution*/
+static int singleNumber_1(int* nums, int numsSize)
+{
+    int ret = 0;
+    int bitsum[32] = {0};
+    int i, j;
+
+    for (i = 0; i < numsSize; i++) {
+        for (j = 0; j < 32; j++) {
+            bitsum[j] += (nums[i] >> j) & 0x1;
+        }
+    }
+    for (i = 0; i < 32; i++) {
+        ret = ret | ((bitsum[i] % 3 ) << i);
+    }
+
+    return ret;
+}
 /**
  * @brief Given an array of integers, every element appears three times 
  *        except for one. Find that single one.
@@ -25,7 +45,7 @@
  *
  * @return 
  */
-int singleNumber(int* nums, int numsSize)
+static int singleNumber(int* nums, int numsSize)
 {
     int ret;
     int i, j, unione;
@@ -78,11 +98,20 @@ static void test2(void)
     printf("%d\n", singleNumber(a, aa));
 }
 
+static void test3(void)
+{
+    int a[] = {1};
+    int aa = 1;
+
+    printf("%d\n", singleNumber_1(a, aa));
+}
+
 int leet_137_single_number_ii_test(void)
 {
     printf("%s\n", __FILE__);
     test1();
     test2();
+    test3();
     return 0;
 }
 

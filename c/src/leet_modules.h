@@ -35,6 +35,7 @@
 #include "leet_168_excel_sheet_column_title.h"
 #include "leet_169_majority_element.h"
 #include "leet_171_excel_sheet_column_number.h"
+#include "leet_172_factorial_trailing_zeros.h"
 #include "leet_189_rotate_array.h"
 #include "leet_190_reverse_bits.h"
 #include "leet_191_number_of_1_bits.h"
@@ -84,6 +85,7 @@ TESTCASE test_cases[] =
     {168, leet_168_excel_sheet_column_title_test},
     {169, leet_169_majority_element_test},
     {171, leet_171_excel_sheet_column_number_test},
+    {172, leet_172_factorial_trailing_zeros_test},
     {189, leet_189_rotate_array_test},
     {190, leet_190_reverse_bits_test},
     {191, leet_191_number_of_1_bits_test},

@@ -23,6 +23,7 @@ SRC_FILES = leet_main.c \
 			leet_168_excel_sheet_column_title.c \
 			leet_169_majority_element.c \
 			leet_171_excel_sheet_column_number.c \
+			leet_172_factorial_trailing_zeros.c \
 			leet_189_rotate_array.c \
 			leet_190_reverse_bits.c \
 			leet_191_number_of_1_bits.c \
