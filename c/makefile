@@ -11,6 +11,7 @@ SRC_FILES = leet_main.c \
 			leet_27_remove_element.c \
 			leet_43_multiply_strings.c \
 			leet_67_add_binary.c \
+			leet_70_climbing_stairs.c \
 			leet_83_remove_duplicates_from_sorted_list.c \
 			leet_88_merge_sorted_array.c \
 			leet_104_maximum_depth_of_binary_tree.c \
