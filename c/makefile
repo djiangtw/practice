@@ -6,10 +6,12 @@ SRC_FILES = leet_main.c \
 			leet_8_string_to_integer_atoi.c \
 			leet_9_palindrome.c \
 			leet_13_roman_to_integer.c \
+			leet_19_remove_nth_node_from_end_of_list.c \
 			leet_21_merge_two_sorted_lists.c \
 			leet_26_remove_duplicates_from_sorted_array.c \
 			leet_27_remove_element.c \
 			leet_43_multiply_strings.c \
+			leet_66_plus_one.c \
 			leet_67_add_binary.c \
 			leet_70_climbing_stairs.c \
 			leet_83_remove_duplicates_from_sorted_list.c \
