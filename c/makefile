@@ -5,6 +5,7 @@ SRC_FILES = leet_main.c \
 			leet_7_reverse_integer.c \
 			leet_8_string_to_integer_atoi.c \
 			leet_9_palindrome.c \
+			leet_13_roman_to_integer.c \
 			leet_21_merge_two_sorted_lists.c \
 			leet_26_remove_duplicates_from_sorted_array.c \
 			leet_27_remove_element.c \
@@ -40,7 +41,8 @@ SRC_FILES = leet_main.c \
 			leet_290_word_pattern.c \
 			leet_299_bulls_and_cows.c \
 			leet_328_odd_even_linked_list.c \
-			leet_326_power_of_three.c
+			leet_326_power_of_three.c \
+			leet_util.c
 SRC_PATH = src/
 SRC = $(addprefix $(SRC_PATH), $(SRC_FILES))
 REL_FILES = leet

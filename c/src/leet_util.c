@@ -18,8 +18,23 @@
 
 #include <stdlib.h>
 #include <time.h>
+#include <string.h>
+
 #include "leet_header.h"
 
+void str_reverse(char* s)
+{
+    int sz;
+    int i = 0;
+    char tmp;
+    sz = strlen(s);
+    for (i = 0; i < sz / 2; i++) {
+        tmp = s[i];
+        s[i] = s[sz - i - 1];
+        s[sz - i - 1] = tmp;
+    }
+}
+#if 0
 void add_tree(TreeNode_* t, int* depth)
 {
     t->val = rand() % 100;
@@ -64,3 +79,4 @@ void free_tree(TreeNode_* t)
     }
     free(t);
 }
+#endif

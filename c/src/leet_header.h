@@ -28,6 +28,8 @@
 
 typedef char bool;
 
+/*extern void str_reverse(char* s);*/
+
 /*
  *typedef struct TreeNode {
  *    int val;
