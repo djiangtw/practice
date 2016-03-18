@@ -23,6 +23,7 @@
 #include "leet_26_remove_duplicates_from_sorted_array.h"
 #include "leet_27_remove_element.h"
 #include "leet_43_multiply_strings.h"
+#include "leet_58_length_of_last_word.h"
 #include "leet_66_plus_one.h"
 #include "leet_67_add_binary.h"
 #include "leet_70_climbing_stairs.h"
@@ -78,6 +79,7 @@ TESTCASE test_cases[] =
     {26, leet_26_remove_duplicates_from_sorted_array_test},
     {27, leet_27_remove_element_test},
     {43, leet_43_multiply_strings_test},
+    {58, leet_58_length_of_last_word_test},
     {66, leet_66_plus_one_test},
     {67, leet_67_add_binary_test},
     {70, leet_70_climbing_stairs_test},
