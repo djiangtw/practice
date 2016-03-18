@@ -45,6 +45,7 @@
 #include "leet_189_rotate_array.h"
 #include "leet_190_reverse_bits.h"
 #include "leet_191_number_of_1_bits.h"
+#include "leet_203_remove_linked_list_elements.h"
 #include "leet_204_count_primes.h"
 #include "leet_206_reverse_linked_list.h"
 #include "leet_217_contains_duplicate.h"
@@ -102,6 +103,7 @@ TESTCASE test_cases[] =
     {189, leet_189_rotate_array_test},
     {190, leet_190_reverse_bits_test},
     {191, leet_191_number_of_1_bits_test},
+    {203, leet_203_remove_linked_list_elements_test},
     {204, leet_204_count_primes_test},
     {206, leet_206_reverse_linked_list_test},
     {217, leet_217_contains_duplicate_test},
