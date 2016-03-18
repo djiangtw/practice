@@ -46,6 +46,7 @@
 #include "leet_204_count_primes.h"
 #include "leet_206_reverse_linked_list.h"
 #include "leet_217_contains_duplicate.h"
+#include "leet_219_contains_duplicate_ii.h"
 #include "leet_231_power_of_two.h"
 #include "leet_237_delete_node_in_a_linked_list.h"
 #include "leet_242_valid_anagram.h"
@@ -100,6 +101,7 @@ TESTCASE test_cases[] =
     {204, leet_204_count_primes_test},
     {206, leet_206_reverse_linked_list_test},
     {217, leet_217_contains_duplicate_test},
+    {219, leet_219_contains_duplicate_ii_test},
     {231, leet_231_power_of_two_test},
     {237, leet_237_delete_node_in_a_linked_list_test},
     {242, leet_242_valid_anagram_test},
