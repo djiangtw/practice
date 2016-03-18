@@ -22,6 +22,7 @@
 #include "leet_21_merge_two_sorted_lists.h"
 #include "leet_26_remove_duplicates_from_sorted_array.h"
 #include "leet_27_remove_element.h"
+#include "leet_38_count_and_say.h"
 #include "leet_43_multiply_strings.h"
 #include "leet_58_length_of_last_word.h"
 #include "leet_66_plus_one.h"
@@ -78,6 +79,7 @@ TESTCASE test_cases[] =
     {21, leet_21_merge_two_sorted_lists_test},
     {26, leet_26_remove_duplicates_from_sorted_array_test},
     {27, leet_27_remove_element_test},
+    {38, leet_38_count_and_say_test},
     {43, leet_43_multiply_strings_test},
     {58, leet_58_length_of_last_word_test},
     {66, leet_66_plus_one_test},
