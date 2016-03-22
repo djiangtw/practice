@@ -60,6 +60,7 @@
 #include "leet_299_bulls_and_cows.h"
 #include "leet_326_power_of_three.h"
 #include "leet_328_odd_even_linked_list.h"
+#include "leet_338_counting_bits.h"
 
 #define END_OF_TEST_SN  (-1)
 typedef struct TESTCASE_t
@@ -118,6 +119,7 @@ TESTCASE test_cases[] =
     {299, leet_299_bulls_and_cows_test},
     {326, leet_326_power_of_three_test},
     {328, leet_328_odd_even_linked_list_test},
+    {338, leet_338_counting_bits_test},
     {END_OF_TEST_SN, NULL}
 };
 #endif
