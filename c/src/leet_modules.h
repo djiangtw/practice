@@ -60,6 +60,7 @@
 #include "leet_263_ugly_number.h"
 #include "leet_290_word_pattern.h"
 #include "leet_299_bulls_and_cows.h"
+#include "leet_319_bulb_switcher.h"
 #include "leet_326_power_of_three.h"
 #include "leet_328_odd_even_linked_list.h"
 #include "leet_338_counting_bits.h"
@@ -121,6 +122,7 @@ TESTCASE test_cases[] =
     {263, leet_263_ugly_number_test},
     {290, leet_290_word_pattern_test},
     {299, leet_299_bulls_and_cows_test},
+    {319, leet_319_bulb_switcher_test},
     {326, leet_326_power_of_three_test},
     {328, leet_328_odd_even_linked_list_test},
     {338, leet_338_counting_bits_test},

@@ -50,6 +50,7 @@ SRC_FILES = leet_main.c \
 			leet_290_word_pattern.c \
 			leet_299_bulls_and_cows.c \
 			leet_328_odd_even_linked_list.c \
+			leet_319_bulb_switcher.c \
 			leet_326_power_of_three.c \
 			leet_338_counting_bits.c \
 			leet_util.c
