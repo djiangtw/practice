@@ -17,8 +17,10 @@
 #include "leet_7_reverse_integer.h"
 #include "leet_8_string_to_integer_atoi.h"
 #include "leet_9_palindrome.h"
+#include "leet_12_integer_to_roman.h"
 #include "leet_13_roman_to_integer.h"
 #include "leet_19_remove_nth_node_from_end_of_list.h"
+#include "leet_20_valid_parentheses.h"
 #include "leet_21_merge_two_sorted_lists.h"
 #include "leet_26_remove_duplicates_from_sorted_array.h"
 #include "leet_27_remove_element.h"
@@ -76,8 +78,10 @@ TESTCASE test_cases[] =
     {7, leet_7_reverse_integer_test}, 
     {8, leet_8_string_to_integer_atoi_test},
     {9, leet_9_palindrome_test},
+    {12, leet_12_integer_to_roman_test},
     {13, leet_13_roman_to_integer_test},
     {19, leet_19_remove_nth_node_from_end_of_list_test},
+    {20, leet_20_valid_parentheses_test},
     {21, leet_21_merge_two_sorted_lists_test},
     {26, leet_26_remove_duplicates_from_sorted_array_test},
     {27, leet_27_remove_element_test},

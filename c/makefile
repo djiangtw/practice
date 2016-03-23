@@ -5,8 +5,10 @@ SRC_FILES = leet_main.c \
 			leet_7_reverse_integer.c \
 			leet_8_string_to_integer_atoi.c \
 			leet_9_palindrome.c \
+			leet_12_integer_to_roman.c \
 			leet_13_roman_to_integer.c \
 			leet_19_remove_nth_node_from_end_of_list.c \
+			leet_20_valid_parentheses.c \
 			leet_21_merge_two_sorted_lists.c \
 			leet_26_remove_duplicates_from_sorted_array.c \
 			leet_27_remove_element.c \
