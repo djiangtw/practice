@@ -39,6 +39,7 @@ SRC_FILES = leet_main.c \
 			leet_191_number_of_1_bits.c \
 			leet_203_remove_linked_list_elements.c \
 			leet_204_count_primes.c \
+			leet_205_isomorphic_strings.c \
 			leet_206_reverse_linked_list.c \
 			leet_217_contains_duplicate.c \
 			leet_219_contains_duplicate_ii.c \
