@@ -22,6 +22,7 @@
 #include "leet_19_remove_nth_node_from_end_of_list.h"
 #include "leet_20_valid_parentheses.h"
 #include "leet_21_merge_two_sorted_lists.h"
+#include "leet_24_swap_nodes_in_pairs.h"
 #include "leet_26_remove_duplicates_from_sorted_array.h"
 #include "leet_27_remove_element.h"
 #include "leet_38_count_and_say.h"
@@ -86,6 +87,7 @@ TESTCASE test_cases[] =
     {19, leet_19_remove_nth_node_from_end_of_list_test},
     {20, leet_20_valid_parentheses_test},
     {21, leet_21_merge_two_sorted_lists_test},
+    {24, leet_24_swap_nodes_in_pairs_test},
     {26, leet_26_remove_duplicates_from_sorted_array_test},
     {27, leet_27_remove_element_test},
     {38, leet_38_count_and_say_test},
