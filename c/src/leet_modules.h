@@ -39,6 +39,7 @@
 #include "leet_136_single_number.h"
 #include "leet_137_single_number_ii.h"
 #include "leet_153_find_minimum_in_rotated_sorted_array.h"
+#include "leet_160_intersection_of_two_linked_list.h"
 #include "leet_165_compare_version_numbers.h"
 #include "leet_168_excel_sheet_column_title.h"
 #include "leet_169_majority_element.h"
@@ -52,6 +53,7 @@
 #include "leet_206_reverse_linked_list.h"
 #include "leet_217_contains_duplicate.h"
 #include "leet_219_contains_duplicate_ii.h"
+#include "leet_223_rectangle_area.h"
 #include "leet_231_power_of_two.h"
 #include "leet_237_delete_node_in_a_linked_list.h"
 #include "leet_242_valid_anagram.h"
@@ -101,6 +103,7 @@ TESTCASE test_cases[] =
     {136, leet_136_single_number_test},
     {137, leet_137_single_number_ii_test},
     {153, leet_153_find_minimum_in_rotated_sorted_array_test},
+    {160, leet_160_intersection_of_two_linked_list_test},
     {165, leet_165_compare_version_numbers_test},
     {168, leet_168_excel_sheet_column_title_test},
     {169, leet_169_majority_element_test},
@@ -114,6 +117,7 @@ TESTCASE test_cases[] =
     {206, leet_206_reverse_linked_list_test},
     {217, leet_217_contains_duplicate_test},
     {219, leet_219_contains_duplicate_ii_test},
+    {223, leet_223_rectangle_area_test},
     {231, leet_231_power_of_two_test},
     {237, leet_237_delete_node_in_a_linked_list_test},
     {242, leet_242_valid_anagram_test},

@@ -27,6 +27,7 @@ SRC_FILES = leet_main.c \
 			leet_136_single_number.c \
 			leet_137_single_number_ii.c \
 			leet_153_find_minimum_in_rotated_sorted_array.c \
+			leet_160_intersection_of_two_linked_list.c \
 			leet_165_compare_version_numbers.c \
 			leet_168_excel_sheet_column_title.c \
 			leet_169_majority_element.c \
@@ -40,6 +41,7 @@ SRC_FILES = leet_main.c \
 			leet_206_reverse_linked_list.c \
 			leet_217_contains_duplicate.c \
 			leet_219_contains_duplicate_ii.c \
+			leet_223_rectangle_area.c \
 			leet_231_power_of_two.c \
 			leet_237_delete_node_in_a_linked_list.c \
 			leet_242_valid_anagram.c \
