@@ -13,6 +13,7 @@ SRC_FILES = leet_main.c \
 			leet_26_remove_duplicates_from_sorted_array.c \
 			leet_24_swap_nodes_in_pairs.c \
 			leet_27_remove_element.c \
+			leet_28_implement_strstr.c \
 			leet_38_count_and_say.c \
 			leet_43_multiply_strings.c \
 			leet_58_length_of_last_word.c \

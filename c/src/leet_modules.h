@@ -25,6 +25,7 @@
 #include "leet_24_swap_nodes_in_pairs.h"
 #include "leet_26_remove_duplicates_from_sorted_array.h"
 #include "leet_27_remove_element.h"
+#include "leet_28_implement_strstr.h"
 #include "leet_38_count_and_say.h"
 #include "leet_43_multiply_strings.h"
 #include "leet_58_length_of_last_word.h"
@@ -91,6 +92,7 @@ TESTCASE test_cases[] =
     {24, leet_24_swap_nodes_in_pairs_test},
     {26, leet_26_remove_duplicates_from_sorted_array_test},
     {27, leet_27_remove_element_test},
+    {28, leet_28_implement_strstr_test},
     {38, leet_38_count_and_say_test},
     {43, leet_43_multiply_strings_test},
     {58, leet_58_length_of_last_word_test},

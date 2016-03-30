@@ -14,7 +14,6 @@
 
 bool isIsomorphic(char* s, char* t)
 {
-    int i;
     char ss[256] = {0};
     char tt[256] = {0};
 
@@ -48,7 +47,6 @@ bool isIsomorphic(char* s, char* t)
 
 bool isIsomorphic(char* s, char* t)
 {
-    int i;
     char ss[26] = {0};
 
     while(*s != 0)
