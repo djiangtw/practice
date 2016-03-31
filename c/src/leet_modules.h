@@ -57,8 +57,10 @@
 #include "leet_217_contains_duplicate.h"
 #include "leet_219_contains_duplicate_ii.h"
 #include "leet_223_rectangle_area.h"
+#include "leet_228_summary_ranges.h"
 #include "leet_231_power_of_two.h"
 #include "leet_237_delete_node_in_a_linked_list.h"
+#include "leet_238_product_of_array_except_self.h"
 #include "leet_242_valid_anagram.h"
 #include "leet_258_add_digits.h"
 #include "leet_260_single_number_iii.h"
@@ -123,8 +125,10 @@ TESTCASE test_cases[] =
     {217, leet_217_contains_duplicate_test},
     {219, leet_219_contains_duplicate_ii_test},
     {223, leet_223_rectangle_area_test},
+    {228, leet_228_summary_ranges_test},
     {231, leet_231_power_of_two_test},
     {237, leet_237_delete_node_in_a_linked_list_test},
+    {238, leet_238_product_of_array_except_self_test},
     {242, leet_242_valid_anagram_test},
     {258, leet_258_add_digits_test},
     {260, leet_260_single_number_iii_test},

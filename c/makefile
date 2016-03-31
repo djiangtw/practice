@@ -45,8 +45,10 @@ SRC_FILES = leet_main.c \
 			leet_217_contains_duplicate.c \
 			leet_219_contains_duplicate_ii.c \
 			leet_223_rectangle_area.c \
+			leet_228_summary_ranges.c \
 			leet_231_power_of_two.c \
 			leet_237_delete_node_in_a_linked_list.c \
+			leet_238_product_of_array_except_self.c \
 			leet_242_valid_anagram.c \
 			leet_292_nim_game.c \
 			leet_258_add_digits.c \
