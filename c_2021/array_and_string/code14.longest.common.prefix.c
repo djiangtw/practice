@@ -1,3 +1,6 @@
+/*
+ * use the first string to match others
+ */
 #include <string.h>
 #include <stdio.h>
 

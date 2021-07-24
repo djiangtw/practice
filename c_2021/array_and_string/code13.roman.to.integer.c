@@ -1,4 +1,6 @@
-
+/*
+ * use a character table for value mapping and scan the input string.
+ */
 int getRomanVal(char c)
 {
     char val_char[] = {'I', 'V', 'X', 'L', 'C', 'D', 'M'};
