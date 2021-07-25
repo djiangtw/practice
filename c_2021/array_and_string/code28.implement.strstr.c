@@ -57,8 +57,49 @@
 #define KMP 0
 #define NAIVE 1
 #if KMP
-int strStr(char * haystack, char * needle){
 
+/*
+ * (expr)   : true / false
+ * !(expr)  : 0    / 1
+ * !!(expr) : 1    / 0
+ *
+ * this is an KMP algorithm implementation.
+ * TODO: review it
+ */
+#define likely(expr)    (__builtin_expect(!!(expr), 1))
+#define unlikely(expr)  (__builtin_expect(!!(expr), 0))
+
+int strStr(char* haystack, char* needle) {
+    int hlen = strlen(haystack);
+    int nlen = strlen(needle);
+
+    if(unlikely(nlen == 0)) return 0;
+
+    int pref[nlen+1];
+    pref[1] = 0;
+    int q = 0, k = 0, m = 0;
+
+    // Calculate prefix table for pattern: needle
+    for (q = 1; q < nlen; ++q) {
+        while (k > 0 && needle[k] != needle[q])
+            k = pref[k];
+        if (unlikely(needle[k] == needle[q]))
+            ++k;
+        pref[q+1] = k;
+    }
+    m = q;
+    k = 0;
+
+    // Traverse input to find a pattern, first occurence win
+    for (q = 0; q < hlen; ++q) {
+        while (k > 0 && haystack[q] != needle[k])
+            k = pref[k];
+        if (unlikely(needle[k] == haystack[q]))
+            ++k;
+        if (unlikely(m == k)) return (q-m+1);
+    }
+
+    return -1;
 }
 #elif NAIVE
 int strStr(char * haystack, char * needle){
