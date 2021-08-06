@@ -17,6 +17,11 @@ def main():
     even_odd(a)
     print(a)
 
+    r, g, b = range(3)
+    print( r)
+    print( g)
+    print( b)
+
 """
 entry point
 """
