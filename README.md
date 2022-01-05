@@ -2,6 +2,6 @@
 
 Personal programming playground.
 
-##leetcode_exercise
+## leetcode_exercise
 
 personal leetcode exercise.
