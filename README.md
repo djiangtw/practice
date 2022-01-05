@@ -1,4 +1,4 @@
-# Practice makes perfet
+# Practice makes perfect
 
 Personal programming playground.
 
